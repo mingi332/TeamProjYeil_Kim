@@ -2,8 +2,9 @@
 #include<cocos2d.h>
 USING_NS_CC;
 #include <ui/CocosGUI.h>
+
 using namespace ui;
-class GameStartScene:public Scene
+class GameStartScene :public Scene
 {
 public:
 	CREATE_FUNC(GameStartScene);
@@ -11,4 +12,3 @@ public:
 	void h2pClick(Ref* ref, Button::TouchEventType type);
 	void rdyClick(Ref* ref, Button::TouchEventType type);
 };
-

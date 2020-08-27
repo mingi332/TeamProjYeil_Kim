@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AppDelegate">
+      <UniqueIdentifier>{83f9cc15-2bcb-4d1d-8a4b-097db9413a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{186f8889-73be-47ae-9a19-2c425a8c59dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Image">
+      <UniqueIdentifier>{88a296ae-33da-41dc-97a5-d6fdaa6e23ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay">
+      <UniqueIdentifier>{77cee265-ad57-4de1-826e-1b5b0ac88a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\UI">
+      <UniqueIdentifier>{735de84d-add3-49f2-bd3b-ab910cc66a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\Items">
+      <UniqueIdentifier>{4591f495-284d-4022-bf08-df7c3f8ceb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\Player">
+      <UniqueIdentifier>{49571237-ca15-4468-ab44-5c9754c895bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\UI\UpgradeLayer">
+      <UniqueIdentifier>{a657efb3-42ca-4e25-9fad-7cdca95b7186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\UI\StatusLayer">
+      <UniqueIdentifier>{67b079e3-a715-4188-8bab-0a26dd14a365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\Effect">
+      <UniqueIdentifier>{b3002608-70fc-4286-9cac-8b845b7c6aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GamePlay\Enemy">
+      <UniqueIdentifier>{514ef24f-2c74-4640-914f-0930aa7f17af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\AppDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\AppDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="basicUI.cpp">
+      <Filter>src\GamePlay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrot.cpp">
+      <Filter>src\GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>src\GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\GamePlay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>src\GamePlay\UI\UpgradeLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="appleItem.cpp">
+      <Filter>src\GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>src\GamePlay\UI\StatusLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>src\GamePlay\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStartScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="how2playLayer.cpp" />
+    <ClCompile Include="EnemyHeli.cpp">
+      <Filter>src\GamePlay\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGhost.cpp">
+      <Filter>src\GamePlay\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\AppDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\AppDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="basicUI.h">
+      <Filter>src\GamePlay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrot.h">
+      <Filter>src\GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>src\GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src\GamePlay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade.h">
+      <Filter>src\GamePlay\UI\UpgradeLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="appleItem.h">
+      <Filter>src\GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>src\GamePlay\UI\StatusLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>src\GamePlay\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="how2playLayer.h" />
+    <ClInclude Include="EnemyHeli.h">
+      <Filter>src\GamePlay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGhost.h">
+      <Filter>src\GamePlay\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

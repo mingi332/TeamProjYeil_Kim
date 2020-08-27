@@ -10,7 +10,7 @@ bool GameStartScene::init()
 	this->addChild(bg);
 
 	//HowToPlay 버튼
-	Button* pBtn = Button::create("UI/how2play.png"); 
+	Button* pBtn = Button::create("UI/how2play.png");
 	this->addChild(pBtn);
 	pBtn->setPosition(Vec2(500, 50));
 	pBtn->addTouchEventListener(CC_CALLBACK_2(GameStartScene::h2pClick, this));
@@ -32,7 +32,7 @@ bool GameStartScene::init()
 	this->addChild(pButton2);
 	pButton2->setPosition(Vec2(600, 75)); //버튼에 새길 play 문구 위치
 	pButton2->setTextColor(Color4B(0, 0, 0, 255)); //문구 색
-	
+
 
 	return true;
 }
@@ -52,7 +52,6 @@ void GameStartScene::rdyClick(Ref* ref, Button::TouchEventType type)
 	if (type == Button::TouchEventType::ENDED)
 	{
 		GamePlayScene* go = GamePlayScene::create();
-		this->addChild(go);
 		Director::getInstance()->replaceScene(go);
 	}
 }

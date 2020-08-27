@@ -1,7 +1,7 @@
 #pragma once
 #include<cocos2d.h>
 USING_NS_CC;
-class effect:public Node
+class effect :public Node
 {
 public:
 	CREATE_FUNC(effect);
@@ -12,4 +12,3 @@ public:
 //	void ShokEffect();
 	//Àå¾Ö¹° ´Ý´Â ÀÌÆåÆ®
 };
-
